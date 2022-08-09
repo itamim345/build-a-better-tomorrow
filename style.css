@@ -11,10 +11,10 @@ body {
     flex-wrap: wrap;
     align-items: center;
     background: #000;
-    padding: 0 5%;
+    padding: 1% 5%;
 }
 .logo {
-    height: 30px;
+    height: 8vh;
 }
 .grow-list {
     flex: 2;
@@ -25,10 +25,13 @@ body {
     gap : 20px;
     flex-wrap: wrap;
 }
+.list-item {
+    cursor: pointer;
+}
 .button-small {
     background: #BA0CC5;
     border: none;
-    padding: 5px 10px;
+    padding: .5vw 1vw;
     border-radius: 5px;
     color: #fff;
 }
@@ -41,10 +44,29 @@ body {
     font-size: 6vw;
     margin-bottom: 10px;
 }
+.hero-description {
+    font-size: 1.5vw;
+}
 .button-large {
     background: #BA0CC5;
     border: none;
-    padding: 10px 20px;
+    padding: 1vw 2vw;
     border-radius: 5px;
     color: #fff;
+    font-size: 1.2vw;
+}
+
+/* -------Responsive CSS---------- */
+@media (max-width: 768px){
+    .navbar {
+        flex-direction: column;
+        padding: 2% 5%;
+    }
+    .list {
+        padding-left: 0;
+    }
+    .list-item {
+        font-size: 2vw;
+    }
+
 }
