@@ -75,5 +75,16 @@ body {
     .list-item {
         font-size: 2vw;
     }
+    .button-small {
+        padding: 1vw 2vw;
+        font-size: 2vw;
+    }
+    .button-large {
+        padding: 2vw 4vw;
+        font-size: 3vw;
+    }
+    .hero-description {
+        font-size: 2.7vw;
+    }
 
 }
