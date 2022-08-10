@@ -1,7 +1,9 @@
 body {
     margin: 0;
     background-image: url('./assets/bg.png');
-    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
     height: 100vh;
     color: #fff;
     font-family: Montserrat;
@@ -34,10 +36,11 @@ body {
     padding: .5vw 1vw;
     border-radius: 5px;
     color: #fff;
+    font-size: 1vw;
 }
 /* hero area css */
 .hero {
-    padding: 0 5%;
+    padding: 5%;
     text-align: center;
 }
 .hero-heading {
@@ -61,6 +64,10 @@ body {
     .navbar {
         flex-direction: column;
         padding: 2% 5%;
+    }
+    .hero {
+        position: absolute;
+        top: 30%;
     }
     .list {
         padding-left: 0;
